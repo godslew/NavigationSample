@@ -2,8 +2,7 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <fragment
-        android:name="com.godslew.navigationsample.ui.main.MainFragment"
-        android:label="main">
+        android:name="com.godslew.navigationsample.ui.main.MainFragment">
 
         <argument
             android:name="title"
