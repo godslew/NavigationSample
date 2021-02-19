@@ -8,16 +8,16 @@ sealed class Title : Parcelable {
 
     @Parcelize
     data class Game(
-            override val name: String = "Game"
+        override val name: String = "Game"
     ) : Title()
 
     @Parcelize
     data class Tv(
-            override val name: String = "TV Show"
+        override val name: String = "TV Show"
     ) : Title()
 
     @Parcelize
     data class Movie(
-            override val name: String = "Movie"
+        override val name: String = "Movie"
     ) : Title()
 }
